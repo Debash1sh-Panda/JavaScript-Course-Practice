@@ -30,3 +30,24 @@ let someNumber = 33;
 let stringNumber = String (someNumber);
 console.log(stringNumber); // 33
 console.log(typeof stringNumber); // but type is String
+
+
+console.log("1"+2);     //12
+console.log(1+"2");     //12
+console.log("1"+2+2);   //122
+console.log(1+2+"2");   //32
+
+//BODMAS rule
+
+console.log( (3 + 4) * 5 % 4);  //3
+console.log(+true);  //1
+console.log(+"");    //0
+
+let num1,num2,num3
+num1=2;
+
+num1++;
+console.log(num1);
+
+++num1;
+console.log(num1);
