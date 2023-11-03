@@ -65,3 +65,18 @@ const ObjArray = [
 
 // console.log(tinderUser2.hasOwnProperty('isLogged')); // true
 // console.log(tinderUser2.hasOwnProperty('isLoggedin')); // false
+
+//How actualy JSON is represent
+/*
+{
+    "name":"Debasish",
+    "sallary": 100000,
+    "company": "Amazon"
+}
+Also represnt as this type
+[
+    {},
+    {},
+    {}
+]
+*/
